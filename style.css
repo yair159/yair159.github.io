@@ -1,0 +1,35 @@
+
+body{
+  margin: 0px;
+  background-image: url('resourses/back.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*
+h1{
+  color: white;
+  text-align: right;
+  margin: 10% 20% 10% 0%;
+}
+*/
+h2{
+  display: inline-block;
+  padding: 10px;
+  border: none;
+
+  background-color: red;
+  background-attachment: fixed;
+  transition: all 0.5s;
+}
+
+h2:hover{
+  background-color: rgb(180, 0, 0);
+}
+
+.container{
+  text-align: center;
+  margin: 20% 0% 80% 50% ;
+  padding: 10px;
+}
